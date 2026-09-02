@@ -1,0 +1,54 @@
+{
+  "redirects": [
+    { "source": "/eletricista-joaquim-egidio", "destination": "/bairro/joaquim-egidio", "permanent": true },
+    { "source": "/eletricista-joaquim-egidio/", "destination": "/bairro/joaquim-egidio", "permanent": true },
+
+    { "source": "/eletricista-no-parque-prado", "destination": "/bairro/parque-prado", "permanent": true },
+    { "source": "/eletricista-no-parque-prado/", "destination": "/bairro/parque-prado", "permanent": true },
+
+    { "source": "/eletricista-mansoes-santo-antonio", "destination": "/bairro/mansoes-santo-antonio", "permanent": true },
+    { "source": "/eletricista-mansoes-santo-antonio/", "destination": "/bairro/mansoes-santo-antonio", "permanent": true },
+
+    { "source": "/eletricista-campinas", "destination": "/", "permanent": true },
+    { "source": "/eletricista-campinas/", "destination": "/", "permanent": true },
+
+    { "source": "/eletricista-profissional-em-campinas", "destination": "/", "permanent": true },
+    { "source": "/eletricista-profissional-em-campinas/", "destination": "/", "permanent": true },
+
+    { "source": "/eletricista-24-horas-em-campinas-seguranca-e-qualidade-garantidas", "destination": "/", "permanent": true },
+    { "source": "/eletricista-24-horas-em-campinas-seguranca-e-qualidade-garantidas/", "destination": "/", "permanent": true },
+
+    { "source": "/contato", "destination": "/", "permanent": true },
+    { "source": "/contato/", "destination": "/", "permanent": true },
+
+    { "source": "/eletricista-residencial", "destination": "/servicos", "permanent": true },
+    { "source": "/eletricista-residencial/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/eletrica-predial-e-residencial-em-campinas", "destination": "/servicos", "permanent": true },
+    { "source": "/eletrica-predial-e-residencial-em-campinas/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/troca-de-disjuntor-geral-em-campinas", "destination": "/servicos", "permanent": true },
+    { "source": "/troca-de-disjuntor-geral-em-campinas/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/instalacao-de-luminarias-em-campinas", "destination": "/servicos", "permanent": true },
+    { "source": "/instalacao-de-luminarias-em-campinas/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/instalacao-de-chuveiro-em-campinas", "destination": "/servicos", "permanent": true },
+    { "source": "/instalacao-de-chuveiro-em-campinas/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/instalacao-de-tomada-em-campinas-sp", "destination": "/servicos", "permanent": true },
+    { "source": "/instalacao-de-tomada-em-campinas-sp/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/troca-da-fiacao-do-chuveiro-em-campinas", "destination": "/servicos", "permanent": true },
+    { "source": "/troca-da-fiacao-do-chuveiro-em-campinas/", "destination": "/servicos", "permanent": true },
+
+    { "source": "/curto-circuito", "destination": "/blog/curto-circuito", "permanent": true },
+    { "source": "/curto-circuito/", "destination": "/blog/curto-circuito", "permanent": true },
+
+    { "source": "/resistencia-do-chuveiro", "destination": "/blog/resistencia-chuveiro-queimando", "permanent": true },
+    { "source": "/resistencia-do-chuveiro/", "destination": "/blog/resistencia-chuveiro-queimando", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,9 @@
+Este site referencia duas imagens que NÃO vieram no arquivo .zip exportado do Manus
+(elas ficavam hospedadas no armazenamento interno do Manus):
+
+1. logo_eletricista_280fb94a.png  (logo usado no cabeçalho de todas as páginas)
+2. hero_eletricista_8af14beb.jpg  (foto grande da seção inicial do site)
+
+Coloque os arquivos reais com esses mesmos nomes dentro desta pasta
+(public/manus-storage/) antes de gerar o site final. Enquanto isso, criei
+versões de placeholder simples para o site não quebrar visualmente.
