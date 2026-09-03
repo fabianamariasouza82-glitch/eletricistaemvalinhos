@@ -6,8 +6,8 @@ import { useSEO } from "@/hooks/useSEO";
 export default function Services() {
   const [menuOpen, setMenuOpen] = useState(false);
   useSEO({
-    title: "Serviços Elétricos em Campinas - Instalação e Manutenção | Eletricista em Campinas",
-    description: "Conheça todos os serviços elétricos que oferecemos em Campinas: instalações, manutenção, quadro elétrico, iluminação, reformas e atendimento emergencial 24h.",
+    title: "Serviços Elétricos em Valinhos - Instalação e Manutenção | Eletricista em Valinhos",
+    description: "Conheça todos os serviços elétricos que oferecemos em Valinhos: instalações, manutenção, quadro elétrico, iluminação, reformas e atendimento emergencial 24h.",
   });
 
   const services = [
@@ -122,7 +122,7 @@ export default function Services() {
         "Reparo de queimação de interruptores",
         "Reparo de fios expostos",
         "Reparo de vazamento de corrente",
-        "Atendimento 24 horas",
+        "Atendimento 24 horas em Valinhos",
       ]
     },
     {
@@ -148,7 +148,7 @@ export default function Services() {
           <Link href="/" className="flex items-center gap-2">
             <img 
               src="/manus-storage/logo_eletricista_280fb94a.png" 
-              alt="Eletricista em Campinas" 
+              alt="Eletricista em Valinhos" 
               className="h-36 w-auto"
             />
           </Link>
@@ -189,10 +189,10 @@ export default function Services() {
       <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-800">
         <div className="container text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Nossos Serviços
+            Nossos Serviços em Valinhos
           </h1>
           <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-            Oferecemos uma ampla gama de serviços de instalação e manutenção elétrica para residências, comércios e indústrias
+            Oferecemos uma ampla gama de serviços de instalação e manutenção elétrica para residências, comércios e indústrias em Valinhos e região
           </p>
         </div>
       </section>
@@ -225,17 +225,17 @@ export default function Services() {
       <section className="py-20 bg-blue-50">
         <div className="container text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Não encontrou o serviço que procura?
+            Não encontrou o serviço que procura em Valinhos?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Entre em contato conosco. Oferecemos soluções personalizadas para qualquer necessidade elétrica.
+            Entre em contato conosco. Oferecemos soluções personalizadas para qualquer necessidade elétrica em Valinhos e região.
           </p>
           <a 
             href="https://api.whatsapp.com/send/?phone=5519994252525&text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
             className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
           >
             <Phone className="w-5 h-5" />
-            Solicitar Orçamento
+            Fale Conosco pelo WhatsApp
           </a>
         </div>
       </section>
@@ -245,8 +245,8 @@ export default function Services() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4">Eletricista em Campinas</h3>
-              <p className="text-blue-200 text-sm">Serviços elétricos profissionais com mais de 20 anos de experiência.</p>
+              <h3 className="font-bold mb-4">Eletricista em Valinhos</h3>
+              <p className="text-blue-200 text-sm">Serviços elétricos profissionais com mais de 20 anos de experiência em Valinhos e região.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-3">Contato</h4>
@@ -257,7 +257,7 @@ export default function Services() {
             </div>
             <div>
               <h4 className="font-semibold mb-3">Localização</h4>
-              <p className="text-blue-200 text-sm">Campinas, SP</p>
+              <p className="text-blue-200 text-sm">Valinhos, SP</p>
               <p className="text-blue-200 text-sm">Atendemos toda a região</p>
             </div>
             <div>
@@ -276,7 +276,7 @@ export default function Services() {
               <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
               Avalie-nos no Google
             </a>
-            <p>&copy; 2026 Eletricista em Campinas. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Eletricista em Valinhos. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
