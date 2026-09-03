@@ -9,16 +9,16 @@ import ElfsightWidget from "@/components/ElfsightWidget";
 
 const faqs = [
   {
-    question: "Quanto custa um eletricista em Campinas?",
+    question: "Quanto custa um eletricista em Valinhos?",
     answer: "O valor varia de acordo com o tipo de serviço, a urgência e os materiais necessários. Fazemos uma avaliação e enviamos um orçamento detalhado antes de iniciar qualquer trabalho, sem compromisso.",
   },
   {
-    question: "Vocês atendem emergências elétricas 24 horas em Campinas?",
+    question: "Vocês atendem emergências elétricas 24 horas em Valinhos?",
     answer: "Sim, temos atendimento 24 horas, todos os dias da semana, para emergências como curto-circuito, falta de energia, disjuntor desarmando e outros problemas urgentes.",
   },
   {
-    question: "Quais bairros de Campinas vocês atendem?",
-    answer: "Atendemos toda a cidade de Campinas, incluindo Taquaral, Cambuí, Barão Geraldo, Centro, Sousas e mais de 30 outros bairros. Veja a lista completa mais abaixo nesta página.",
+    question: "Quais bairros de Valinhos vocês atendem?",
+    answer: "Atendemos toda a cidade de Valinhos, incluindo Jardim Bela Vista, Nova Veneza, Matão, Centro, Picerno e mais de 30 outros bairros. Veja a lista completa mais abaixo nesta página.",
   },
   {
     question: "Os eletricistas são certificados?",
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: "Quanto tempo leva para um eletricista chegar até mim?",
-    answer: "Para atendimentos em Campinas, nosso tempo médio de chegada é rápido, e priorizamos ainda mais os chamados de emergência. O prazo exato depende do seu bairro e da disponibilidade no momento do chamado.",
+    answer: "Para atendimentos em Valinhos, nosso tempo médio de chegada é rápido, e priorizamos ainda mais os chamados de emergência. O prazo exato depende do seu bairro e da disponibilidade no momento do chamado.",
   },
 ];
 
@@ -39,8 +39,8 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useSEO({
-    title: "Eletricista em Campinas - Serviços 24 Horas | Profissional Certificado",
-    description: "Eletricista profissional em Campinas com mais de 20 anos de experiência. Atendimento 24 horas para residências, comércios e condomínios. Certificado NR10 e NR35.",
+    title: "Eletricista em Valinhos - Serviços 24 Horas | Profissional Certificado",
+    description: "Eletricista profissional em Valinhos com mais de 20 anos de experiência. Atendimento 24 horas para residências, comércios e condomínios. Certificado NR10 e NR35.",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <img 
               src="/manus-storage/logo_eletricista_280fb94a.png" 
-              alt="Eletricista em Campinas" 
+              alt="Eletricista em Valinhos" 
               className="h-36 w-auto"
               width={200}
               height={96}
@@ -129,14 +129,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden min-h-[420px] sm:min-h-[520px] md:min-h-[780px] lg:min-h-[900px]">
         <div className="absolute inset-0">
-          {/* Esta é a imagem de LCP (Largest Contentful Paint) da página —
-              o maior elemento visível assim que ela carrega. Por isso
-              carrega com prioridade alta (fetchPriority="high") e sem
-              lazy loading, além de width/height explícitos para o
-              navegador reservar o espaço corretamente antes de baixá-la. */}
           <img 
             src="/manus-storage/hero_eletricista_8af14beb.jpg" 
-            alt="Eletricista profissional" 
+            alt="Eletricista profissional em Valinhos" 
             className="w-full h-full object-cover object-[center_15%] md:object-[75%_15%]"
             loading="eager"
             fetchPriority="high"
@@ -148,10 +143,10 @@ export default function Home() {
         <div className="container relative py-20 md:py-40 lg:py-48">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-              Eletricista Profissional em Campinas
+              Eletricista Profissional em Valinhos
             </h1>
             <p className="text-lg text-blue-100 mb-8">
-              Mais de 20 anos de experiência. Atendimento 24 horas para residências, comércios e condomínios. Certificado NR10 e NR35.
+              Mais de 20 anos de experiência. Atendimento 24 horas para residências, comércios e condomínios em Valinhos. Certificado NR10 e NR35.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
@@ -196,10 +191,10 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Nossos Serviços
+              Nossos Serviços em Valinhos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Oferecemos soluções completas para todas as suas necessidades elétricas
+              Oferecemos soluções completas para todas as suas necessidades elétricas em Valinhos e região
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -236,7 +231,7 @@ export default function Home() {
                 Quem Somos
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
-                Somos uma empresa especializada em serviços elétricos residenciais, comerciais e industriais em Campinas. Com mais de 20 anos de experiência, realizamos mais de 2.500 atendimentos com foco em segurança, agilidade e preço justo.
+                Somos uma empresa especializada em serviços elétricos residenciais, comerciais e industriais em Valinhos e região. Com mais de 20 anos de experiência, realizamos mais de 2.500 atendimentos com foco em segurança, agilidade e preço justo.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
                 Nossa equipe é formada por eletricistas certificados na NR10, treinados para lidar com qualquer situação — de uma simples troca de tomada a uma reforma elétrica completa.
@@ -248,7 +243,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent" />
-                  <span className="text-foreground">Atendimento em todos os bairros de Campinas</span>
+                  <span className="text-foreground">Atendimento em todos os bairros de Valinhos</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent" />
@@ -280,10 +275,10 @@ export default function Home() {
       <section id="contato" className="py-20 bg-gradient-to-r from-blue-900 to-blue-800 scroll-mt-28">
         <div className="container text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Precisa de um Eletricista Agora?
+            Precisa de um Eletricista em Valinhos Agora?
           </h2>
           <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-            Entre em contato conosco para um orçamento. Atendimento rápido e profissional garantido.
+            Entre em contato conosco para um orçamento. Atendimento rápido e profissional em toda Valinhos garantido.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -312,7 +307,7 @@ export default function Home() {
               Perguntas Frequentes
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Tire suas dúvidas sobre nossos serviços de eletricista em Campinas
+              Tire suas dúvidas sobre nossos serviços de eletricista em Valinhos
             </p>
           </div>
           <div className="space-y-4">
@@ -343,10 +338,10 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Atendemos Todos os Bairros
+              Atendemos Todos os Bairros de Valinhos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Encontre informações específicas sobre nossos serviços em seu bairro
+              Encontre informações específicas sobre nossos serviços em seu bairro em Valinhos
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-x-4 gap-y-3">
@@ -392,8 +387,8 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold mb-4">Eletricista em Campinas</h3>
-              <p className="text-blue-200 text-sm">Serviços elétricos profissionais com mais de 20 anos de experiência.</p>
+              <h3 className="font-bold mb-4">Eletricista em Valinhos</h3>
+              <p className="text-blue-200 text-sm">Serviços elétricos profissionais com mais de 20 anos de experiência em Valinhos e região.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-3">Contato</h4>
@@ -404,7 +399,7 @@ export default function Home() {
             </div>
             <div>
               <h4 className="font-semibold mb-3">Localização</h4>
-              <p className="text-blue-200 text-sm">Campinas, SP</p>
+              <p className="text-blue-200 text-sm">Valinhos, SP</p>
               <p className="text-blue-200 text-sm">Atendemos toda a região</p>
             </div>
             <div>
@@ -429,7 +424,7 @@ export default function Home() {
               <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
               Avalie-nos no Google
             </a>
-            <p>&copy; 2026 Eletricista em Campinas. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Eletricista em Valinhos. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
